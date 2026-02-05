@@ -2,29 +2,48 @@
 <html lang="ka">
 <head>
   <meta charset="UTF-8">
-  <title>ჩემი პირადი გვერდი</title>
+  <title>პირადი საიტი</title>
   <style>
     body {
-      background-color: #f4f4f4;
+      background: linear-gradient(135deg, #ffe6f0, #e6f7ff);
       font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
       text-align: center;
-      padding-top: 100px;
     }
-    .box {
+    .card {
       background: white;
-      padding: 30px;
-      margin: auto;
-      width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      max-width: 400px;
+    }
+    h1 {
+      color: #ff4d88;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .hearts {
+      font-size: 24px;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>გამარჯობა ჩემო პეპელა 🦋❤️👋</h1>
-    <p> ეს საიტი არის შენთვის შექმნილი მხოლოდ.</p>
-    <p> 07. 02. 2026 გეპატიჟები პაემანზე შენი პანდა 🐼💙</p>
-  </div>
-</body>
-</html>
+  <div class="card">
+    <h1>გამარჯობა ჩემო პეპელა 🦋</h1>
+    <p>
+      ეს საიტი არის შენთვის.<br><br>
+      <strong>07.02.2026</strong><br>
+      გეპატიჟები პაემანზე.
+    </p>
+    <p>
+      შენი პანდა 🐼
+    </p>
+    <div class="hearts">
+      ❤️❤️❤️❤️❤️❤️❤️
+    </div>
